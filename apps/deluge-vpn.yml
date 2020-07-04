@@ -12,7 +12,7 @@
     # FACTS #######################################################################
     - name: 'Set Known Facts'
       set_fact:
-        pgrole: 'deluge-vpn'
+        pgrole: 'deluge'
         intport: '8112'
         extport: '8112'
         intport2: '8118'
