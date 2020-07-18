@@ -75,5 +75,5 @@
         labels: '{{pg_labels}}'
         VIRTUAL_HOST: 'whmcs.hokagemedia.com'
         WHMCS_SERVER_IP: '147.135.97.222'
-        APP_PASSWORD: 'WHMCS**wbK1'
+        APP_PASSWORD: 'password'
         
