@@ -17,8 +17,6 @@
         extport: '2323'
         intport2: '2222'
         extport2: '2222'
-        intport3: '443'
-        extport3: '2424'
         image: 'fauzie/docker-whmcs'
 
     # CORE (MANDATORY) ############################################################
