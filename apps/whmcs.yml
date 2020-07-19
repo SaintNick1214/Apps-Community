@@ -47,7 +47,7 @@
       set_fact:
         pg_volumes:
           - '/etc/localtime:/etc/localtime:ro'
-          - '/var/www/whmcs'
+          - '/opt/appdata/whmcs:/var/www/whmcs'
           - '{{path.stdout}}:{{path.stdout}}'
 
     - name: 'Setting PG ENV'
