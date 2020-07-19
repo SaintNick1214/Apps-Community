@@ -55,6 +55,10 @@
         pg_env:
           PUID: '1000'
           PGID: '1000'
+          TZ: 'America/Los_Angeles'
+          VIRTUAL_HOST: 'whmcs.hokagemedia.com'
+          WHMCS_SERVER_IP: '147.135.97.222'
+          APP_PASSWORD: 'plexguide'
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
